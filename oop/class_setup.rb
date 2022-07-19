@@ -8,7 +8,7 @@ class ApiConnector
   end
 
   def api_logger
-    puts "API Connector starting..."
+    puts 'API Connector starting...'
   end
 
   def testing_initializers
@@ -25,10 +25,9 @@ class SmsConnector < ApiConnector
 end
 
 class PhoneConnector < ApiConnector
-
   def api_logger
     super
-    puts "Phone call API Connector starting..."
+    puts 'Phone call API Connector starting...'
   end
 
   def send_phone_call
